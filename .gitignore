@@ -1,0 +1,15 @@
+# Dependencies and build output (both applications)
+node_modules/
+dist/
+coverage/
+*.tsbuildinfo
+
+# Local configuration and secrets; commit only safe examples
+.env
+.env.*
+!.env.example
+
+# Logs and operating-system files
+*.log
+.DS_Store
+Thumbs.db
